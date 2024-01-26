@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Статистика</title>
+</head>
+<body>
+    {% include 'nav_statistics.html' %}
+
+    {% block content %}
+        {% include 'block_template.html' %}
+    
+        <ul>
+            {% for key, value in statistics.items() %}
+                <li>{{ key }}: {{ value }}</li>
+            {% endfor %}
+        </ul>
+    {% endblock %}
+    
+    <br>
+    {% include 'footer.html' %}
+</body>
+</html>
