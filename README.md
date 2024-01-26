@@ -3,6 +3,7 @@
 Сайт выложен на pythonanywhere: http://selest.pythonanywhere.com/
 
 
+
 Примечания к репозиторию:
 
 Flask_website - папка с кодом и всеми файлами. Для запуска сайта нужно запустить main.py
